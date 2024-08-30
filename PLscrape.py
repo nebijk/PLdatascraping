@@ -48,7 +48,7 @@ for team_url in team_urls:
     all_teams.append(team_data)
     
     # Wait to avoid being blocked
-    time.sleep(5)
+    time.sleep(1)
 
 # Concatenate all teams' DataFrames
 stat_df = pd.concat(all_teams)
